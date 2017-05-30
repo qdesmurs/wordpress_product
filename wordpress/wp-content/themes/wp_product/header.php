@@ -6,6 +6,10 @@
     <title>Product_launch</title>
     <link rel="stylesheet" href=<?php echo '"'.get_stylesheet_directory_uri( ).'/style.css"';  ?>>
 
+    <link async href="http://fonts.googleapis.com/css?family=Creepster" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+
+
+
 <?php wp_head(); ?>
 </head>
 <body>
