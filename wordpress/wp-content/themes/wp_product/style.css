@@ -5,3 +5,11 @@ Author: zhor
 Author URI:
 Description: yolo theme
 */
+
+article {
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2em;
+}
