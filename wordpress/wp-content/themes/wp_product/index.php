@@ -19,7 +19,10 @@
             <article>
             <h1><?php the_title(); ?></h1>
             <p><?php the_content(); ?></p>
-            <h5 class="price"><?php the_meta() ?></h5>
+
+
+            <h5><?php echo get_post_meta($post->ID ,'Date', true ); ?></h5>
+
             <?php
             if (isset($_POST["mail"])) {
                 $wpdb->insert(
@@ -30,8 +33,9 @@
                         'type' => $_POST["type"]
                     )
                 );
-
-                echo "<h5 class="price"><?php the_meta() ?></h5>";
+                ?>
+                <h6><?php echo get_post_meta($post->ID ,'Confirmation', true ); ?></h6>
+                <?php
             }
             echo '<form class="formail" action="" method="post">';
             echo '<input type="text" name="name" value="" placeholder="veuillez entrer vos noms">';

@@ -35,7 +35,7 @@ li {
     list-style: none;
 }
 
-.post-meta li {
+h5 {
     box-sizing: content-box;
  cursor: pointer;
  border: none;
@@ -86,13 +86,13 @@ h1:hover {
 h2 {
     font-family: 'Barrio', cursive;
     font-size: 4em;
-    color: white;
+    color: grey;
 }
 
 h3 {
     font-family: 'Barrio', cursive;
     font-size: 2em;
-    color: white;
+    color: grey;
 }
 
 .beerbutton {
@@ -133,4 +133,9 @@ h3 {
 
 .radio {
     color: white;
+}
+
+h6 {
+    color: blue;
+    font-size: 1em;
 }
