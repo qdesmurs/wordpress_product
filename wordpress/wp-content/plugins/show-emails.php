@@ -27,6 +27,7 @@ function show_emails(){
     echo '<tr>';
     echo '<th>Emails</th>';
     echo '<th>Names</th>';
+    echo '<th>Type</th>';
     echo '</tr>';
 
     global $wpdb;
@@ -39,6 +40,10 @@ function show_emails(){
 
         echo '<td>' ;
         echo $print->name;
+        echo '</td>';
+
+        echo '<td>' ;
+        echo $print->type;
         echo '</td>';
         echo '</tr>';
 

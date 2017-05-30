@@ -8,6 +8,9 @@
 
     <link async href="http://fonts.googleapis.com/css?family=Creepster" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+
+    <link async href="http://fonts.googleapis.com/css?family=Passero%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
 
 <?php wp_head(); ?>
