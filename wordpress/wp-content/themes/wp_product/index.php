@@ -31,9 +31,9 @@
             echo '<form class="formail" action="" method="post">';
             echo '<input type="text" name="name" value="" placeholder="veuillez entrer vos noms">';
             echo '<input type="email" name="mail" value="" placeholder="veuillez entrer votre mail">';
-            echo '<input type="radio" name="type" value="html">Html';
-            echo '<input type="radio" name="type" value="text">Text';
-            echo '<input type="submit" name="form" value="envoyer">';
+            echo '<input class="radio" type="radio" name="type" value="html">Html';
+            echo '<input class="radio" type="radio" name="type" value="text">Text';
+            echo '<input class="beerbutton" type="submit" name="form" value="envoyer">';
             echo '</form>';
             ?>
             </article>
