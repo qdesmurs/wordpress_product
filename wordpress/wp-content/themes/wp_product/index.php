@@ -13,6 +13,9 @@
         foreach ($posts as $post) {
             setup_postdata($post);
             ?>
+            <?php if ( has_post_thumbnail() ) {
+                the_post_thumbnail();
+            }  ?>
             <article>
             <h1><?php the_title(); ?></h1>
             <p><?php the_content(); ?></p>
@@ -27,6 +30,8 @@
                         'type' => $_POST["type"]
                     )
                 );
+
+                echo "<h5 class="price"><?php the_meta() ?></h5>";
             }
             echo '<form class="formail" action="" method="post">';
             echo '<input type="text" name="name" value="" placeholder="veuillez entrer vos noms">';
